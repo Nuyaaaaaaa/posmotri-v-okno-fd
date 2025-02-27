@@ -148,9 +148,9 @@ ol {
 
 .search-form__fieldset-title {
   line-height: 22px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   margin-bottom: 5px;
 }
 
@@ -181,9 +181,9 @@ ol {
 }
 
 .content__video-card-description {
-  font-size: 18px;
+  font-size: inherit;
   line-height: 16px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
   max-width: 196px;
   display: -webkit-box;
@@ -222,9 +222,9 @@ ol {
   border-top: 1px solid rgba(255, 255, 255, 0.7);
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   background-color: transparent;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 22px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
   width: 100%;
   appearance: none;
@@ -232,9 +232,9 @@ ol {
 }
 
 .search-form__textfield::placeholder {
-  font-size: 18px;
+  font-size: inherit;
   line-height: 22px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -284,9 +284,9 @@ ol {
 .button {
   padding: 6px 0;
   text-align: center;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 22px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 700;
   background-color: transparent;
   color: #fff;
@@ -296,13 +296,13 @@ ol {
 
 .button:active,
 .content__card-link:active {
-  background: #545050;
+  background-color: #545050;
 }
 
 .search-form__label-text {
-  font-size: 18px;
+  font-size: inherit;
   line-height: 22px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
 }
 
