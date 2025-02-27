@@ -124,6 +124,8 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .content__video-card-thumbnail {
@@ -217,8 +219,8 @@ ol {
 
 .search-form__textfield {
   border: none;
-  border-top: 1px solid #ffffffb2;
-  border-bottom: 1px solid #ffffffb2;
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   background-color: transparent;
   font-size: 18px;
   line-height: 22px;
@@ -226,6 +228,7 @@ ol {
   font-weight: 400;
   width: 100%;
   appearance: none;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .search-form__textfield::placeholder {
@@ -233,12 +236,12 @@ ol {
   line-height: 22px;
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .button:focus,
-.content__video-card:focus,
-.search-form__textfield:focus,
-.content__list-item:focus {
+.content__card-link:focus,
+.search-form__textfield:focus {
   outline: none;
 }
 
@@ -250,7 +253,7 @@ ol {
   outline-offset: 1px;
 }
 
-.content__video-card:focus-visible,
+.content__card-link:focus-visible,
 .content__list-item:focus-visible {
   outline: 1px solid #fff;
 }
@@ -286,13 +289,13 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   background-color: transparent;
-  border: 1px solid #fff;
   color: #fff;
+  border: 1px solid currentColor;
   width: 100%;
 }
 
 .button:active,
-.content__video-card:active {
+.content__card-link:active {
   background: #545050;
 }
 
@@ -312,6 +315,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #fff;
+  display: flex;
 }
 
 .more-button {
@@ -321,11 +325,9 @@ ol {
   margin-left: 2px;
 }
 
-.search-form__label-text:hover,
+.search-form__label:hover .search-form__label-text,
 .button:hover,
-.content__video-card:hover .content__video-card-title,
-.content__video-card:hover .content__video-card-description,
-.content__video-card:hover,
+.content__video-card:hover .content__card-link,
 .content__card-link:hover {
   text-decoration-line: underline;
   text-decoration-style: solid;
