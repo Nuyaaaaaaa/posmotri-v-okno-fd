@@ -332,7 +332,7 @@ ol {
 
 .search-form__label:hover .search-form__label-text,
 .button:hover,
-.content__card-link:hover{
+.content__card-link:hover {
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: none;
